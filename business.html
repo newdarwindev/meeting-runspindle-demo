@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Release Handoff / Business · Meeting Lab × Runspindle</title>
+<meta name="description" content="A proposed release-readiness rehearsal: explain the evidence, approve one isolated replay and reconcile an uncertain result.">
+<link rel="stylesheet" href="style.css"></head>
+<body class="business"><a class="skip" href="#content">Skip to content</a>
+<header class="bar"><span class="brand">MEETING LAB <span class="cross">×</span> RUNSPINDLE</span>
+<nav aria-label="Presentation style"><a href="index.html" >Technical</a><a href="business.html" aria-current="page">Business</a></nav></header>
+<main id="content">
+<section class="hero" aria-labelledby="title"><div class="hero-copy"><p class="kicker">Release operations / demo concept</p>
+<h1 id="title">Approve a release handoff with evidence.</h1>
+<p class="lede">Bring release evidence into the meeting. Approve one replay in an isolated test environment. If the result is uncertain, check what happened before anyone repeats the action.</p>
+<div class="actions"><a class="cta" href="#sequence">See the rehearsal <span aria-hidden="true">↓</span></a><a href="#evidence">View component evidence</a></div></div>
+<figure class="scene"><div class="scene-top"><span>RELEASE HANDOFF</span><span>ILLUSTRATIVE</span></div>
+<div class="panes"><div><span class="tag">VIEW A</span><strong>Release checklist</strong><span class="scene-note">Readiness evidence</span></div><div><span class="tag">VIEW B</span><strong>Test environment</strong><span class="scene-note">Target + observed state</span></div></div>
+<div class="scene-status"><span class="dot" aria-hidden="true"></span><span><b>Approval required</b><br><small>Replay is not yet authorized.</small></span></div>
+<figcaption>Illustration of the proposed combined demo, not a live capture.</figcaption></figure></section>
+<section id="sequence"><p class="kicker">How the rehearsal works</p><h2>One meeting. One bounded action.</h2>
+<ol class="steps"><li><span>01</span><h3>Show the release evidence</h3><p>Show a release checklist and the isolated target side by side. Explain what was observed and what is still unknown.</p></li>
+<li><span>02</span><h3>Approve one replay</h3><p>Review the target and action. An explicit human decision authorizes one replay in the isolated fixture, not production.</p></li>
+<li><span>03</span><h3>Check the result before retrying</h3><p>Simulate a lost acknowledgement. Hold the outcome as unknown; independently verify whether the action took effect.</p></li></ol>
+<p class="small">Proposed measures: time to evidence, approval-to-result time, independent readbacks, and duplicate effects. No combined measurements yet.</p></section>
+<section id="evidence"><p class="kicker">Verified separately · combined demo proposed</p><h2>What has been tested</h2>
+<div class="evidence"><article><h3>Meeting Camera Lab</h3><p>In an internal generated fixture, the team checked that two views could be relayed independently. The combined workflow and remote meeting tiles remain unverified.</p>
+<a href="https://newdarwindev.github.io/meeting-lab-demo/">Explore the project demo</a></article>
+<article><h3>Runspindle</h3><p>Isolated browser fixtures tested a lost response: the effect stayed unknown until independent readback, without blindly resending the action.</p>
+<a href="https://github.com/newdarwindev/runspindle-browser/blob/03e4cbd2135e0cd6736446b0de3f07eab5f788e8/docs/F07_ACCEPTANCE.md">Read the bounded acceptance ledger</a></article></div>
+<p class="small">The combined rehearsal, receiving-participant meeting tiles and production operation are not verified by those component receipts.</p></section>
+</main><footer><div><strong>Follow the demo</strong><p>Waitlist sign-up is not open on this page.</p></div><nav aria-label="Project links"><a href="https://newdarwindev.github.io/meeting-lab-demo/">Meeting Lab site</a><a href="https://newdarwindev.github.io/runspindle/">Runspindle site</a><a href="https://github.com/newdarwindev/runspindle">Runspindle source</a></nav></footer></body></html>
